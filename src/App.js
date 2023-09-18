@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { ProfilePage } from "./components/ProfilePage";
 import { ProfileDetailPage } from "./components/ProfileDetailPage";
 import { FeedPage } from "./components/FeedPage";
-import { HomePage } from "./components/HomePage";
+import { AgePage } from "./components/HomePage";
 function App() {
   return (
     <div>
       <Router>
-        <ul>
+        {/* <ul>
           <li>
             <Link to="/">To Home</Link>
           </li>
@@ -21,10 +21,13 @@ function App() {
           <li>
             <Link to="/feed">To Feed</Link>
           </li>
-        </ul>
+        </ul> */}
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/profile" component={ProfilePage} />
+          <Route exact path="/" component={AgePage} />
+          <Route 
+            exact path="/profile"
+            render={(props) => <ProfilePage {...props}/>}
+          />
           <Route path="/profile/:username" component={ProfileDetailPage} />
           <Route path="/feed" component={FeedPage} />
         </Switch>
