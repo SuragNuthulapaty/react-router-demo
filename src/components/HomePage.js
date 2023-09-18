@@ -4,14 +4,13 @@ import { useState } from "react";
 
 export function AgePage() {
 
-  const [inputText, setInputText] = useState("pizza");
+  const [inputText, setInputText] = useState("");
 
   function getAge() {
-    console.log("in the get age func")
     if (document.getElementById("input-text") == null) {
       return -1
     }
-    
+
     return document.getElementById("input-text").value
   }
 
@@ -25,9 +24,9 @@ export function AgePage() {
     >
       <h1 className="display-1 text-white">Please Enter Your Age</h1>
       <div className="flex d-flex flex-row p-2 align-items-center justify-content-center">
-        <input name="age-in" id="input-text" className="m-3 p-2 rounded" value={inputText || 2} onChange={handleChange}/>
+        <input name="age-in" id="input-text" className="m-3 p-2 rounded h-25" value={inputText} onChange={handleChange}/>
         {/* <p className="mt-1 ml-1">this is some more text</p> */}
-        <Link to={{ pathname:"/profile", state:{age:getAge()} }} className="text-white rounded p-2 bg-success">Submit</Link>
+        <Link to={{ pathname:"/profile", state:{age:getAge()} }} className="text-white rounded p-2 bg-success h-25" style={{textDecoration:'none'}}>Submit</Link>
       </div>
     </div>
   )

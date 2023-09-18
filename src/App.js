@@ -28,7 +28,6 @@ function App() {
             exact path="/profile"
             render={(props) => <ProfilePage {...props}/>}
           />
-          <Route path="/profile/:username" component={ProfileDetailPage} />
           <Route path="/feed" component={FeedPage} />
         </Switch>
       </Router>
