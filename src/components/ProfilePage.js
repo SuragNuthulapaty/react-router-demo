@@ -6,9 +6,18 @@ export function ProfilePage() {
   console.log(location)
   const {age} = location.state
   // const age = 15;
-  return (
-    <div>
-      <h1>Profile Page! {age}</h1>
-    </div>
-  );
+  if (age < 19 ) {
+    return (
+      <div>
+        <h1>You are young {age}</h1>
+      </div>
+    );
+  }
+  else {
+    return (
+      <div>
+        <h1>Profile Page! {age}</h1>
+      </div>
+    );
+  }
 }
