@@ -52,6 +52,7 @@ export function ProfilePage() {
     }
   }
   const location = useLocation()
+  
   const {age} = location.state
   // const age = 15;
   if (age < 19 ) {
@@ -83,6 +84,7 @@ export function ProfilePage() {
           <input name="ag`e-in" id="tpts-txt" className="m-3 p-2 rounded h-25" value={six} onChange={handleChange_6}/>
         </div>
         {showComp()}
+        {console.log('ran again')}
       </div>
     );
   }
@@ -91,7 +93,7 @@ export function ProfilePage() {
       <div className='h-100 flex d-flex flex-column w-100 h-100 mh-100 align-items-center justify-content-center fill'>
         <h1 className="display-1 text-dark">You are old.</h1>
         <h1 className="display-1 text-dark">Click the button below</h1>
-        <Link to="/info" className="text-dark rounded p-2 bg-success h-25 m-3" style={{textDecoration:'none'}}>Go On</Link>
+        <Link to="/info" className="text-white rounded p-2 bg-dark h-25 m-3" style={{textDecoration:'none'}}>Go On</Link>
       </div>
     );
   }
