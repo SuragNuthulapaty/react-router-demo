@@ -13,7 +13,7 @@ function App() {
             exact path="/profile"
             render={(props) => <ProfilePage {...props}/>}
           />
-          <Route path="/feed" component={FeedPage} />
+          <Route path="/info" component={FeedPage} />
         </Switch>
       </Router>
     </div>
