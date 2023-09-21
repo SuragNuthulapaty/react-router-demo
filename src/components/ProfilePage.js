@@ -90,10 +90,10 @@ export function ProfilePage() {
   }
   else {
     return (
-      <div className='h-100 flex d-flex flex-column w-100 h-100 mh-100 align-items-center justify-content-center fill'>
+      <div className='flex d-flex flex-column w-100 align-items-center justify-content-center fill' style={{height:'882px'}}>
         <h1 className="display-1 text-dark">You are old.</h1>
         <h1 className="display-1 text-dark">Click the button below</h1>
-        <Link to="/info" className="text-white rounded p-2 bg-dark h-25 m-3" style={{textDecoration:'none'}}>Go On</Link>
+        <Link to="/info" className="text-white rounded p-2 bg-dark m-3" style={{textDecoration:'none'}}>Go On</Link>
       </div>
     );
   }
