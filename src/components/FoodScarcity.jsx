@@ -12,7 +12,7 @@ export function FoodScarcity() {
             <hr />
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
+                <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Facts about food:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -27,14 +27,14 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
+                <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Problems with food:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -52,14 +52,14 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_stamps} style={{height:'200px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                    <img src={food_stamps} style={{height:'200px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"SNAP logo"}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
+                <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Food Deserts:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -80,14 +80,14 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
+                <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Why Is This A Feminist Issue:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -108,7 +108,7 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={single_moms} style={{height:'300px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
+                    <img src={single_moms} style={{height:'300px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
                 </div>
             </div>
 
