@@ -6,13 +6,13 @@ import single_moms from "../images/single_mothers.jpeg"
 
 export function FoodScarcity() {
     return (
-        <div className='w-100 alig-items-center p-2'>
+        <div className='w-100 alig-items-center p-5 pt-2'>
             <h1 className='display-2 font-weight-bold'>Food scarcity</h1>
 
             <hr />
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2'>
+                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Facts about food:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -27,14 +27,14 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={junk_price_img} style={{height:'200px',width:'200px'}}/>
+                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2'>
+                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Problems with food:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -52,14 +52,14 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_stamps} style={{height:'200px',width:'300px'}}/>
+                    <img src={food_stamps} style={{height:'200px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2'>
+                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Food Deserts:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -80,14 +80,14 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_desert} style={{height:'300px',width:'400px'}}/>
+                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
-                <div className='col m-2'>
+                <div className='col m-2 rounded p-2' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Why Is This A Feminist Issue:</h2>
                     <ul className='text-md fs-5'>
                         <li>
@@ -108,7 +108,7 @@ export function FoodScarcity() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={single_moms} style={{height:'300px',width:'300px'}}/>
+                    <img src={single_moms} style={{height:'300px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/>
                 </div>
             </div>
 
