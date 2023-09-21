@@ -72,7 +72,9 @@ export function FeedPage() {
           <button onClick={thirdFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t3_color, borderWidth:t3_bw}}>Topic 3</button>
         </div>
       </div>
-      {getPage()}
+      <div className="pl-2">
+       {getPage()}
+      </div>
       <div className="flex d-flex align-items-center justify-content-center pb-3">
         <Link to={{ pathname:"/"}} className="text-white rounded p-2 bg-dark h-25" style={{textDecoration:'none'}}>Return To Home Page</Link>
       </div>
