@@ -29,15 +29,15 @@ export function FeedPage() {
 
   return (
     <div>
-      <div className="flex d-flex flex-row w-100 text-center justify-content-center">
-        <div className="bg-secondary col justify-content-center align-items-center text-dark">
-          <button onClick={foodScarcityBtn} className="w-100 h-100 p-3" style={{boxShadow:'none'}}>Food Scaricity</button>
+      <div className="flex d-flex flex-row w-100 text-center justify-content-center p-2">
+        <div className="col justify-content-center align-items-center text-dark m-1 p-2">
+          <button onClick={foodScarcityBtn} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:'white'}}>Food Scaricity</button>
         </div>
-        <div className="bg-primary col justify-content-center align-items-center">
-          <button onClick={secondFocus} className="w-100 h-100 p-3">Topic 2</button>
+        <div className="col justify-content-center align-items-center m-1 p-2">
+          <button onClick={secondFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:'white'}}>Topic 2</button>
         </div>
-        <div className="bg-success col justify-content-center align-items-center">
-          <button onClick={thirdFocus} className="w-100 h-100 p-3">Topic 3</button>
+        <div className="col justify-content-center align-items-center m-1 p-2">
+          <button onClick={thirdFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:'white'}}>Topic 3</button>
         </div>
       </div>
       {getPage()}
