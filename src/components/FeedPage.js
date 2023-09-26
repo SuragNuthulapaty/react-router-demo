@@ -2,9 +2,10 @@ import React from "react";
 import { useState } from "react";
 import { FoodScarcity } from "./FoodScarcity";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Ignorance } from "./Ignorance";
 
 export function FeedPage() {
-  const [page_val, set_page_val] = useState(0);
+  const [page_val, set_page_val] = useState(1);
   const [fs_color, set_fs_color] = useState('lightgray')
   const [t2_color, set_t2_color] = useState('white')
   const [t3_color, set_t3_color] = useState('white')
@@ -53,7 +54,7 @@ export function FeedPage() {
     if (page_val===0){
       return <FoodScarcity/>
     } else if (page_val === 1) {
-      return <p>topic 2</p>
+      return <Ignorance/>
     } else {
       return <p>topic 3</p>
     }
@@ -66,7 +67,7 @@ export function FeedPage() {
           <button onClick={foodScarcityBtn} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:fs_color, borderWidth:fs_bw}}>Food Scaricity</button>
         </div>
         <div className="col justify-content-center align-items-center m-1 p-2">
-          <button onClick={secondFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t2_color, borderWidth:t2_bw}}>Topic 2</button>
+          <button onClick={secondFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t2_color, borderWidth:t2_bw}}>Ignorance</button>
         </div>
         <div className="col justify-content-center align-items-center m-1 p-2">
           <button onClick={thirdFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t3_color, borderWidth:t3_bw}}>Topic 3</button>
