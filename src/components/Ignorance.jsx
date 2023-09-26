@@ -88,19 +88,16 @@ export function Ignorance() {
                     <h2 className='display-5 fs-1'>Solutions:</h2>
                     <ul className='text-md fs-5'>
                         <li>
-                            Those in food deserts generally do not have the means to escape them.
+                            For current women leaders in power: make sure you act in a manner that reaches and helps everyone, not just yourself
                         </li>
                         <li>
-                            They are also a disproportionante amount of women, especially marginilized single mothers, in food deserts.
+                            For others with power: ensure you aren't just listening to dominant groups, make sure to take ideas from marginilized people
                         </li>
                         <li>
-                            This means lack of access to food, among other things, affect women far more than men.
+                            For those without power: make sure you champion and bolster all women, not just those of majority groups
                         </li>
                         <li>
-                            Single mothers also have provide for both themselves and their kids, pushigng them down into the hole of poverty more.
-                        </li>
-                        <li>
-                            All this really means there is no feasible way for a woman living in food scarcity to move out of that state.
+                            Overall: be open to change happening!
                         </li>
                     </ul>
                 </div>
