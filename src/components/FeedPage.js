@@ -5,7 +5,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { Ignorance } from "./Ignorance";
 
 export function FeedPage() {
-  const [page_val, set_page_val] = useState(1);
+  const [page_val, set_page_val] = useState(2);
   const [fs_color, set_fs_color] = useState('lightgray')
   const [t2_color, set_t2_color] = useState('white')
   const [t3_color, set_t3_color] = useState('white')
@@ -70,7 +70,7 @@ export function FeedPage() {
           <button onClick={secondFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t2_color, borderWidth:t2_bw}}>Ignorance</button>
         </div>
         <div className="col justify-content-center align-items-center m-1 p-2">
-          <button onClick={thirdFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t3_color, borderWidth:t3_bw}}>Topic 3</button>
+          <button onClick={thirdFocus} className="w-100 h-100 p-3" style={{borderRadius:'20px', backgroundColor:t3_color, borderWidth:t3_bw}}>Allyship</button>
         </div>
       </div>
       <div className="pl-2">
