@@ -1,8 +1,7 @@
 import React from 'react'
-import junk_price_img from "../images/compare_price_img.jpeg"
-import food_stamps from "../images/food_stamps.png"
-import food_desert from "../images/food_desert.jpeg"
-import single_moms from "../images/single_mothers.jpeg"
+import ignorance_img from "../images/ignorance.jpg"
+import dude_self_point from "../images/dude_point_self.jpeg"
+import be_change from "../images/be_change.jpeg"
 
 export function Ignorance() {
     return (
@@ -27,7 +26,7 @@ export function Ignorance() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
+                    <img src={ignorance_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
                 </div>
             </div>
 
@@ -55,7 +54,7 @@ export function Ignorance() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
+                    <img src={dude_self_point} style={{height:'300px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
                 </div>
             </div>
 
@@ -75,9 +74,6 @@ export function Ignorance() {
                             Food access is a large point, but only in the sense of access within markets. There has been little to no talk about reducing the prevelance of food deserts which disproportionately impact marginalized people
                         </li>
                     </ul>
-                </div>
-                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_stamps} style={{height:'200px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"SNAP logo"}/>
                 </div>
             </div>
 
@@ -102,7 +98,7 @@ export function Ignorance() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={single_moms} style={{height:'300px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
+                    <img src={be_change} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
                 </div>
             </div>
 

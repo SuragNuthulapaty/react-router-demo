@@ -5,7 +5,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { Ignorance } from "./Ignorance";
 
 export function FeedPage() {
-  const [page_val, set_page_val] = useState(2);
+  const [page_val, set_page_val] = useState(0);
   const [fs_color, set_fs_color] = useState('lightgray')
   const [t2_color, set_t2_color] = useState('white')
   const [t3_color, set_t3_color] = useState('white')
