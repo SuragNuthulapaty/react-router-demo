@@ -97,7 +97,7 @@ export function Ignorance() {
                             For those without power: make sure you champion and bolster all women, not just those of majority groups
                         </li>
                         <li>
-                            Overall: be open to change happening!
+                            In all: be open to change happening! Shift power to all, not just to those who currently have some power
                         </li>
                     </ul>
                 </div>
