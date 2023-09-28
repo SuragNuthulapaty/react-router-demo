@@ -88,7 +88,7 @@ export function FoodScarcity() {
 
             <div className='flex d-flex p-1'>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
-                    <h2 className='display-5 fs-1'>Why Is This A Feminist Issue:</h2>
+                    <h2 className='display-5 fs-1'>Why Is This A Feminist Issue?</h2>
                     <ul className='text-md fs-5'>
                         <li>
                             Those in food deserts generally do not have the means to escape them.

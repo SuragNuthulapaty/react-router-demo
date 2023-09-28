@@ -3,9 +3,10 @@ import { useState } from "react";
 import { FoodScarcity } from "./FoodScarcity";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { Ignorance } from "./Ignorance";
+import { Allyship } from "./Allyship";
 
 export function FeedPage() {
-  const [page_val, set_page_val] = useState(0);
+  const [page_val, set_page_val] = useState(2);
   const [fs_color, set_fs_color] = useState('lightgray')
   const [t2_color, set_t2_color] = useState('white')
   const [t3_color, set_t3_color] = useState('white')
@@ -56,7 +57,7 @@ export function FeedPage() {
     } else if (page_val === 1) {
       return <Ignorance/>
     } else {
-      return <p>topic 3</p>
+      return <Allyship/>
     }
   }
 
