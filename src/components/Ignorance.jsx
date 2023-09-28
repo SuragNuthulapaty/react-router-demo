@@ -11,6 +11,9 @@ export function Ignorance() {
             <hr />
 
             <div className='flex d-flex p-1'>
+                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
+                    <img src={ignorance_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
+                </div>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>What is Ignorance?</h2>
                     <ul className='text-md fs-5'>
@@ -24,9 +27,6 @@ export function Ignorance() {
                             Essentially, ignorance in feminism leads to the illusion of change, instead of true change for a vast majority of women
                          </li>
                     </ul>
-                </div>
-                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={ignorance_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
                 </div>
             </div>
 
@@ -80,6 +80,9 @@ export function Ignorance() {
             <hr/>
 
             <div className='flex d-flex p-1'>
+                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
+                    <img src={be_change} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
+                </div>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Solutions:</h2>
                     <ul className='text-md fs-5'>
@@ -96,9 +99,6 @@ export function Ignorance() {
                             In all: be open to change happening! Shift power to all, not just to those who currently have some power
                         </li>
                     </ul>
-                </div>
-                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={be_change} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
                 </div>
             </div>
 

@@ -12,6 +12,9 @@ export function FoodScarcity() {
             <hr />
 
             <div className='flex d-flex p-1'>
+                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
+                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
+                </div>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Facts about food:</h2>
                     <ul className='text-md fs-5'>
@@ -25,9 +28,6 @@ export function FoodScarcity() {
                             Good food and affordable food are not the same thing in the united states, in fact precisely the opposite. Junk food is very cheap and healthy food is more expensive.
                         </li>
                     </ul>
-                </div>
-                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
                 </div>
             </div>
 
@@ -59,6 +59,9 @@ export function FoodScarcity() {
             <hr/>
 
             <div className='flex d-flex p-1'>
+                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
+                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
+                </div>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>Food Deserts:</h2>
                     <ul className='text-md fs-5'>
@@ -78,9 +81,6 @@ export function FoodScarcity() {
                             People who live in food deserts are disproportionally those of marginilized races, and thus disproportionally impacted by them.
                         </li>
                     </ul>
-                </div>
-                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
                 </div>
             </div>
 

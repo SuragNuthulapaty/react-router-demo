@@ -1,8 +1,8 @@
 import React from 'react'
-import junk_price_img from "../images/compare_price_img.jpeg"
-import food_stamps from "../images/food_stamps.png"
-import food_desert from "../images/food_desert.jpeg"
-import single_moms from "../images/single_mothers.jpeg"
+import hands_center from "../images/hands_center.jpeg"
+import burn_pride from "../images/burn_pride.jpeg"
+import actual_ally_three from "../images/true_ALLY_three.jpeg"
+import true_ally from "../images/true_ally.jpeg"
 
 export function Allyship() {
     return (
@@ -27,13 +27,16 @@ export function Allyship() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={junk_price_img} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
+                    <img src={hands_center} style={{height:'200px',width:'200px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"junk vs healthy prices"}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
+                <div className='flex d-flex flex-col col m-2 align-items-center justify-content-center'>
+                    <img src={burn_pride} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"SNAP logo"}/>
+                </div>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>"Allies":</h2>
                     <ul className='text-md fs-5'>
@@ -50,9 +53,6 @@ export function Allyship() {
                             People who consider themselves allies often end up hurting the cause rather than helping it.
                         </li>
                     </ul>
-                </div>
-                <div className='flex d-flex flex-col col m-2 align-items-center justify-content-center'>
-                    <img src={food_stamps} style={{height:'200px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"SNAP logo"}/>
                 </div>
             </div>
 
@@ -80,13 +80,16 @@ export function Allyship() {
                     </ul>
                 </div>
                 <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={food_desert} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
+                    <img src={actual_ally_three} style={{height:'300px',width:'400px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"food desert pic"}/>
                 </div>
             </div>
 
             <hr/>
 
             <div className='flex d-flex p-1'>
+                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
+                    <img src={true_ally} style={{height:'300px',width:'450px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
+                </div>
                 <div className='col m-2 rounded p-3' style={{boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <h2 className='display-5 fs-1'>How can you be an ally?</h2>
                     <ul className='text-md fs-5'>
@@ -106,9 +109,6 @@ export function Allyship() {
                             Be open to learning and helpign in any way that is needed.
                         </li>
                     </ul>
-                </div>
-                <div className='flex d-flex col m-2 align-items-center justify-content-center'>
-                    <img src={single_moms} style={{height:'300px',width:'300px', boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}} alt={"single moms graph"}/>
                 </div>
             </div>
 
